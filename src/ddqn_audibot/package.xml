@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!-- <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ddqn_audibot</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="azizi_@todo.todo">azizi_</maintainer>
+  <license>TODO: License declaration</license>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+    <launch>share/ddqn_audibot/launch</launch>
+  </export>
+</package> -->
+<!-- <?xml version="1.0"?> -->
+<!-- <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ddqn_audibot</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="azizi_@todo.todo">azizi_</maintainer>
+  <license>TODO: License declaration</license>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+    <launch>share/ddqn_audibot/launch</launch>
+  </export>
+</package> -->
+<!-- <?xml version="1.0"?> -->
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ddqn_audibot</name>
+  <version>0.0.0</version>
+  <description>A package for implementing Double Dueling Deep Q-Networks (DDQN) for controlling a robot in simulation.</description>
+  <maintainer email="azizi_@todo.todo">azizi_</maintainer>
+  <license>TODO: License declaration</license>
+
+  <!-- Build and run dependencies -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>opencv-python</exec_depend>
+  <exec_depend>torch</exec_depend>
+  <exec_depend>numpy</exec_depend>
+
+  <!-- Testing dependencies -->
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+    <launch>share/ddqn_audibot/launch</launch>
+  </export>
+</package>
