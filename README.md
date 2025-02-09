@@ -1,9 +1,9 @@
 # Autonomous Vehicle with Deep Reinforcement Learning (DDQN)
 
-This repository contains a ROS 2-based autonomous vehicle project using **Dueling Deep Q-Networks (DDQN)** for self-driving capabilities in simulation. The vehicle perceives the environment via a camera sensor and makes real-time driving decisions based on reinforcement learning. **It is still missing a lot major components and I'll try to update in the coming weeks, please use it on your on, this was my semester project and updating all the key components will take time.** 
+This repository contains a ROS2 based autonomous vehicle project using **Dueling Deep Q-Networks (DDQN)** for self-driving capabilities in simulation. The vehicle perceives the environment via a camera sensor and makes real-time driving decisions based on reinforcement learning. **It is still missing a lot major components and I'll try to update in the coming weeks, please use it on your on, this was my semester project and updating all the key components will take time.** 
 
 ## Features
-- **ROS 2 Humble** implementation
+- **ROS2 Humble** implementation
 - **Gazebo simulation** with a realistic driving environment
 - **Dueling DDQN** for decision-making
 - **Real-time control** of steering, throttle, and braking
