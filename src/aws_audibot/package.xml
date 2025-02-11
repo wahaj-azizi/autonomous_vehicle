@@ -20,36 +20,3 @@
     <!-- <launch>share/aws_audibot/launch</launch> -->
   </export>
 </package> 
-<!-- <?xml version="1.0"?> -->
-<!-- <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<package format="3">
-  <name>aws_audibot</name>
-  <version>0.2.1</version>
-  <description>Metapackage for audibot</description>
-  <maintainer email="azizi_@todo.todo">azizi_</maintainer>
-  <license>TODO: License declaration</license>
-
-  <! Dependencies -->
-  <!-- <depend>launch_ros</depend>
-  <exec_depend>audibot_gazebo</exec_depend>
-  <exec_depend>audibot_description</exec_depend> -->
-
-  <!-- Build tool -->
-  <!-- <buildtool_depend>ament_cmake</buildtool_depend> -->
-
-  <!-- Test dependencies -->
-  <!-- <test_depend>ament_copyright</test_depend>
-  <test_depend>ament_flake8</test_depend>
-  <test_depend>ament_pep257</test_depend>
-  <test_depend>python3-pytest</test_depend> -->
-
-  <!-- Export section for additional metadata -->
-  <!-- <export>
-    <build_type>ament_python</build_type>
-    <ros2_extension>
-      <console_scripts>
-        <entry_point>keyboard_control = audibot.scripts.keyboard_control:main</entry_point>
-      </console_scripts>
-    </ros2_extension>
-  </export> -->
-<!-- </package>  -->
